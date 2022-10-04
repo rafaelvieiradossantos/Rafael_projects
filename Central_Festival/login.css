@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+
+body{
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
+    text-decoration: none;
+}
+
+.navbar-laravel
+{
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+
+.navbar-brand , .nav-link, .my-form, .login-form
+{
+    font-family: Raleway, sans-serif;
+}
+
+.my-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 8%;
+    background-color: #151515;
+}
+ul{
+    margin-left: 1200px;
+}
+li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+   font-weight: bold;
+    font-size: small;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+li:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.inical{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+    transition: 0.4s;
+}
+.inical:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.produtos{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.produtos:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.contatos{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.contatos:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.QS{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.QS:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.Login{
+    text-decoration: none;
+    color: #CC3EEF;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.Login:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+main{
+    margin-top: 200px;
+}

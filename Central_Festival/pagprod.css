@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 8%;
+    background-color: #151515;
+}
+ul{
+    margin-left: 1200px;
+}
+li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+   font-weight: bold;
+    font-size: small;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+li:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.inical{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+    transition: 0.4s;
+}
+.inical:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.produtos{
+    text-decoration: none;
+    color: #CC3EEF;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.produtos:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.contatos{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.contatos:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.QS{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.QS:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.Sert{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    border: 0.5px solid;
+}
+.sertanejo{
+    display: grid;
+    grid-template-areas: 
+    "um dois tres";
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    grid-gap: 200px;
+}
+.um{
+    width: 340px;
+    height: 270px;
+    grid-area: "um";
+    border-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.Jg{
+    width: 100%;
+    height: 75%;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dtum{
+    color: rgba(0, 0, 0, 60%);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 13px;
+     margin-top: 3px;
+     margin-right: 78px;
+     margin-left: 12px;
+     text-align: left;
+    }
+.textum{
+text-decoration: none;
+color: black;
+font-weight: 900;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.dois{
+    width: 340px;
+    height: 270px;
+    grid-area: "um";
+    border-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.GL{
+    width: 100%;
+    height: 75%;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dtdois{
+    color: rgba(0, 0, 0, 60%);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 13px;
+     margin-top: 3px;
+     margin-right: 78px;
+     margin-left: 12px;
+     text-align: left;
+    }
+.textdois{
+text-decoration: none;
+color: black;
+font-weight: 900;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+button:hover{
+cursor: pointer;
+}
+
+.tres{
+    width: 340px;
+    height: 270px;
+    grid-area: "um";
+    border-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.MF{
+    width: 100%;
+    height: 75%;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dttres{
+    color: rgba(0, 0, 0, 60%);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 13px;
+     margin-top: 3px;
+     margin-right: 78px;
+     margin-left: 12px;
+     text-align: left;
+    }
+.texttres{
+text-decoration: none;
+color: black;
+font-weight: 900;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+
+.Funkk{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.funk{
+    display: grid;
+    grid-template-areas: 
+    "umm doiss tress";
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    grid-gap: 200px;
+}
+
+
+.umm{
+    width: 340px;
+    height: 270px;
+    grid-area: "um";
+    border-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.MR{
+    width: 100%;
+    height: 75%;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dtumm{
+    color: rgba(0, 0, 0, 60%);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 13px;
+     margin-top: 3px;
+     margin-right: 78px;
+     margin-left: 12px;
+     text-align: left;
+    }
+.textumm{
+text-decoration: none;
+color: black;
+font-weight: 900;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.doiss{
+    width: 340px;
+    height: 270px;
+    grid-area: "um";
+    border-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.MP{
+    width: 100%;
+    height: 75%;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dtdoiss{
+    color: rgba(0, 0, 0, 60%);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 13px;
+     margin-top: 3px;
+     margin-right: 78px;
+     margin-left: 12px;
+     text-align: left;
+    }
+.textdoiss{
+text-decoration: none;
+color: black;
+font-weight: 900;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+
+.tress{
+    width: 340px;
+    height: 270px;
+    grid-area: "um";
+    border-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.L7{
+    width: 100%;
+    height: 75%;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dttress{
+    color: rgba(0, 0, 0, 60%);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 13px;
+     margin-top: 3px;
+     margin-right: 78px;
+     margin-left: 12px;
+     text-align: left;
+    }
+.texttress{
+text-decoration: none;
+color: black;
+font-weight: 900;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+
+
+
+.Rockk{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.rock{
+    display: grid;
+    grid-template-areas: 
+    "um dois tres";
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    grid-gap: 200px;
+    margin-bottom: 50px;
+}
+
+.ummm{
+    width: 340px;
+    height: 270px;
+    grid-area: "um";
+    border-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.RIO{
+    width: 100%;
+    height: 75%;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dtummm{
+    color: rgba(0, 0, 0, 60%);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 13px;
+     margin-top: 3px;
+     margin-right: 78px;
+     margin-left: 12px;
+     text-align: left;
+    }
+.textummm{
+text-decoration: none;
+color: black;
+font-weight: 900;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.doisss{
+    width: 340px;
+    height: 270px;
+    grid-area: "um";
+    border-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.GNR{
+    width: 100%;
+    height: 75%;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dtdoisss{
+    color: rgba(0, 0, 0, 60%);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 13px;
+     margin-top: 3px;
+     margin-right: 78px;
+     margin-left: 12px;
+     text-align: left;
+    }
+.textdoisss{
+text-decoration: none;
+color: black;
+font-weight: 900;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+
+.tresss{
+    width: 340px;
+    height: 270px;
+    grid-area: "um";
+    border-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.Sepult{
+    width: 100%;
+    height: 75%;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dttresss{
+    color: rgba(0, 0, 0, 60%);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 13px;
+     margin-top: 3px;
+     margin-right: 78px;
+     margin-left: 12px;
+     text-align: left;
+    }
+.texttresss{
+text-decoration: none;
+color: black;
+font-weight: 900;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+
+
+::-webkit-scrollbar-track{
+    background-color: #ffffff;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #CC3EEF;
+}

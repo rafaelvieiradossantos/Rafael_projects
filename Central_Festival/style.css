@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 8%;
+    background-color: #151515;
+}
+ul{
+    margin-left: 1200px;
+}
+li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+   font-weight: bold;
+    font-size: small;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+li:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.inical{
+    text-decoration: none;
+    color: #CC3EEF;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+    transition: 0.4s;
+}
+.inical:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.produtos{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.produtos:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.contatos{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.contatos:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.QS{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.QS:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.Login{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.Login:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.banner{
+    display: grid;
+    grid-template-areas: 
+    "logo";
+    margin-top: 50px;
+    justify-content: center; 
+    background-color: black;
+}
+.bannerprinc{
+   grid-area: "logo";
+}
+.textos{
+    display: grid;
+    grid-template-areas: 
+    "text1"
+    "text2"
+    "text3";
+    justify-content: center;
+}
+.text1{
+    grid-area:"text1";
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.text2{
+    grid-area:"text2" ;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+}
+.text3{
+   grid-area: "text3";
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 270px;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 70%);
+    max-width: 270px;
+}
+.text3:hover{
+    cursor: pointer;
+}
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    display: grid;
+    background-color: #000000;
+    grid-template-areas: 
+    "um dois tres";
+    justify-content: center;
+    grid-gap: 200px;
+}
+.um{
+    background-color:#2E2E2E;
+    width: 300px;
+    height: 230px;
+    grid-area: "um";
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.um:hover{
+  cursor: pointer;
+}
+.imgbut1{
+    width: 90%;
+    height: 80%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.textbut1{
+   color:#fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.dois{
+    background-color:#2E2E2E;
+    width: 300px;
+    height: 230px;
+    border-radius: 10px;
+    grid-area: "dois";
+   margin-top: 40px;
+}
+.dois:hover{
+    cursor: pointer;
+}
+.textbut2{
+    color:#fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.imgbut2{
+    width: 90%;
+height: 80%;
+margin-top: 10px;
+border-radius: 10px;
+}
+
+.tres{
+    background-color:#2E2E2E;
+    width: 300px;
+    height: 230px;
+    grid-area: "tres";
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.tres:hover{
+    cursor: pointer;
+}
+.textbut3{
+    color:#fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.imgbut3{
+    width: 90%;
+height: 80%;
+margin-top: 10px;
+border-radius: 10px;
+}
+

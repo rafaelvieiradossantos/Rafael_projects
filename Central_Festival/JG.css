@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 8%;
+    background-color: #151515;
+}
+ul{
+    margin-left: 1200px;
+}
+li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+   font-weight: bold;
+    font-size: small;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+li:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.inical{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+    transition: 0.4s;
+}
+.inical:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.produtos{
+    text-decoration: none;
+    color: #CC3EEF;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.produtos:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.contatos{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.contatos:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.QS{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+.QS:hover{
+    color: #CC3EEF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ingresso {
+    margin-top: 120px;
+    margin-left: 80px;
+    border: solid 0.6px;
+    border-radius: 15px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    grid-area: "um";
+}
+.JG {
+    margin-top: 0;
+    width: 100%;
+    height: 40%;
+    border-radius: 15px 15px 0px 0px;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 130px;
+    height: 35px;
+    margin-left: 5%;
+    border-radius: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   border: solid 0.5px;
+}
+.adquirir{
+    margin-top: 20px;
+    margin-left: 3%;
+}
+.maior{
+    display: grid;
+    grid-template-areas: "1 2" ;
+    height: 100%;
+    
+}
+.img {
+    margin-top: 120px;
+   grid-area: "2";
+   text-align: center;
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.banner{
+    border-radius: 10px;
+}
